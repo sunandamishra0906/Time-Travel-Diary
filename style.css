@@ -1,0 +1,235 @@
+#home {
+    width: 100%;
+    height: 100vh; /* full viewport height */
+    background-color: rgb(5, 5, 63);
+    background-size: cover;       /* fill the area */
+    background-position: center;  /* center the image */
+    background-repeat: no-repeat; /* don’t repeat */
+
+}
+#home h1 {
+    color: azure;
+}
+/*header {
+     width: 100%;
+     height: 100vh;
+     padding: 20px;
+     box-sizing: border-box;
+}*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;         /* center text */
+}
+
+/* Header styling */
+header {
+    background-color:rgb(231, 169, 87);
+    padding: 20px;
+    width: 100%;
+}
+
+header h1 {
+    font-size: 60px;
+}
+
+header a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #222;
+    font-weight: bold;
+}
+
+header a:hover {
+    color: darkred;
+}
+
+video {
+    width: 100%;       /* full screen width */
+    height: auto;      /* keep aspect ratio */
+    display: block;
+    margin: 10px;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    background-color: rgb(160, 107, 210);
+    color: black;
+    cursor: pointer;
+    margin: 10px;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    background-color: rgb(132, 0, 255);
+    transform: scale(1.1);
+}
+
+/* STONE AGE WEBPAGE */
+#StoneAge {
+    background-color: rgb(235, 159, 45);
+    padding: 30px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    min-height: 100vh;
+}
+
+#StoneAge .images {
+    display: flex;
+    margin: 20px 0;
+}
+#StoneAge .images img {
+    width: 45%;
+    height: auto;
+    border-radius: 10px;
+}
+#StoneAge .videos {
+    margin: 20px 0;
+}
+#StoneAge .videos video {
+    width: 50px;;
+    height: auto;
+    border-radius: 10px;
+}
+#StoneAge audio {
+    margin-top: 20px;
+    width: 70%;
+}
+#StoneAge ul,
+#StoneAge ol {
+    list-style-type: square;
+    list-style-position: inside;
+    padding-left: 0;
+    margin: 15px 0;
+}
+
+/*medieval age css */
+#medievalera {
+    background-color: rgb(244, 130, 225);
+    padding: 30px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    min-height: 100vh;
+}
+#medievalera table {
+    margin: 20px auto;
+}
+#medievalera th,
+#medievalera td {
+    border: 1px solid #333;
+    padding: 10px 15px;
+    text-align: center;
+}
+#medievalera img {
+    width : 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+/* Modern page */
+#modern {
+     background-color: rgb(60, 153, 193);
+    padding: 30px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    min-height: 100vh;
+}
+#modern img {
+    width : 500px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 20px;
+}
+#modern audio {
+    margin-top: 20px;
+    width: 70%;
+}
+#modern ul,
+#modern ol {
+    list-style-type: square;
+    list-style-position: inside;
+    padding-left: 0;
+    margin: 15px 0;
+}
+/* Future page */
+#future {
+     background-color: rgb(74, 56, 238);
+     color: #edd5d5;
+    padding: 30px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    min-height: 100vh;
+}
+#future img {
+    width : 500px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+#future ul,
+#future ol {
+    list-style-type: square;
+    list-style-position: inside;
+    padding-left: 0;
+    margin: 15px 0;
+}
+#about {
+     background-color: rgb(234, 167, 189);
+     color: rgb(50, 17, 17);
+    padding: 30px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    min-height: 100vh;
+}
+#about ul,
+#about ol {
+    list-style-type: square;
+    list-style-position: inside;
+    padding-left: 0;
+    margin: 15px 0;
+}
+#ancient {
+    background-color: rgb(161, 219, 154);
+    padding: 30px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    min-height: 100vh;
+}
+#ancient .images {
+    display: flex;
+    margin: 20px 0;
+}
+#ancient .images img {
+    width: 45%;
+    height: auto;
+    border-radius: 10px;
+}
+#ancient .videos {
+    margin: 20px 0;
+}
+#ancient .videos video {
+    width: 50px;;
+    height: auto;
+    border-radius: 10px;
+}
+#ancient ul,
+#ancient ol {
+    list-style-type: square;
+    list-style-position: inside;
+    padding-left: 0;
+    margin: 15px 0;
+}
