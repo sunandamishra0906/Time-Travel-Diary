@@ -5,35 +5,47 @@
         <meta name="Viewport" content="width=device-width, initial-scale=1.0">
         <title>Time Travel Diary </title>
         <link rel="stylesheet" href="style.css">
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     </head>
-    <body> 
-        <section id="StoneAge">
-            <h1> <ins> STONE AGE . </ins> </h1>
+    <body id = "stone"> 
+        <div class="width-500px bg-white/60 p-6 mx-8 my-4 rounded-xl shadow-lg ">
+>
+            <h1 class="text-white text-3xl font-bold mb-3 text-center"> <ins> STONE AGE . </ins> </h1>
             <BR>
-        <p> The stone age marks the dawn of human civilization. Early humans discovered <strong> Fire </strong>, crafted <em> Stone tools </em> , and painted caves to tell stories. </p>
+        
+        <p class="text-gray-200 text-lg"> The stone age marks the dawn of human civilization. Early humans discovered <strong> Fire </strong>, crafted <em> Stone tools </em> , and painted caves to tell stories. </p>
         <br>
-        <p> Let's Begin with their discoveries : </p>
-        <ul>
+        <p class="text-gray-200 text-lg text-left"> Let's Begin with their discoveries : </p>
+        <ul class="list-disc list-inside ml-6 text-gray-200 text-lg text-left">
             <li>Fire 🔥</li>
             <li>Stone Tools 🪓
-                <ul> 
-                    <li>Hand Axes </li>
-                    <li>Scrapes</li>
-                    <li>Flake Tools</li>
-                    <li>Pebble Tools</li>
-                    <li>Blade Tools</li>
+                <ul class="list-square text-gray-200 text-lg"> 
+                    <li>* Hand Axes </li>
+                    <li>* Scrapes</li>
+                    <li>* Flake Tools</li>
+                    <li>* Pebble Tools</li>
+                    <li>* Blade Tools</li>
                 </ul>
             </li>
             <li>Cave Paintings 🎨</li>
         </ul>
         <br>
-        <img src="https://www.heritagedaily.com/wp-content/uploads/2020/03/cave4.jpg" width="45%" height="auto" >
-        <img src="https://cdn.britannica.com/73/91873-004-02BA901C.jpg">
-        <video controls autoplay loop src="https://media.istockphoto.com/id/2166492427/video/prehistoric-cavemen-by-the-campfire-3d-render.mp4?p=1&s=mp4-640x640-is&k=20&c=uzTb3kmItaD6y38lXl0Du-KkNP5MobnwY99PwOmJ5Tg=" width="50px" height="50%"></video>
-        <video controls autoplay loop src="https://media.istockphoto.com/id/2148249996/video/ancient-life-02.mp4?p=1&s=mp4-640x640-is&k=20&c=P-LIm4X2hP3Vmjtu9IGkVF1z5VoH_ahkFjLj3EPylrc=" width="50px" height="50%"></video>
+        </div>
+       
+        <div class="flex justify-center items-center space-x-6 my-6">
+        <img src="https://www.heritagedaily.com/wp-content/uploads/2020/03/cave4.jpg" class=" era-img transition-transform duration-300 w-40 h-40 object-cover rounded-lg shadow-md" >
+        <img src="https://cdn.britannica.com/73/91873-004-02BA901C.jpg"class=" era-img transition-transform duration-300 w-40 h-40 object-cover rounded-lg shadow-md">
+        <video controls autoplay loop src="https://media.istockphoto.com/id/2166492427/video/prehistoric-cavemen-by-the-campfire-3d-render.mp4?p=1&s=mp4-640x640-is&k=20&c=uzTb3kmItaD6y38lXl0Du-KkNP5MobnwY99PwOmJ5Tg=" class="w-40 h-40 object-cover rounded-lg shadow-md"></video>
+        <video controls autoplay loop src="https://media.istockphoto.com/id/2148249996/video/ancient-life-02.mp4?p=1&s=mp4-640x640-is&k=20&c=P-LIm4X2hP3Vmjtu9IGkVF1z5VoH_ahkFjLj3EPylrc=" class="w-40 h-40 object-cover rounded-lg shadow-md"></video>
         <audio controls src="https://cdn.pixabay.com/download/audio/2022/03/24/audio_4d975f21f2.mp3?filename=gathering-stone-resources-105866.mp3">
          <P>Let's hear a sound which will make u feel as if  u went to stone age !!!!!!!!</P>
         </audio>
-    </section>
+        </div>
+
+         <a href="index.html" class="text-right">
+            <button style="display: block; color: aliceblue; background-color: #423666 ; font-size: 20px; border: 2px solid black; border-radius: 1opx; padding: 5px 5px 5px 5px;"> HOME  </button>
+            </a>
+
+    <script src="script.js"></script>
     </body>
 </html>

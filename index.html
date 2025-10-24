@@ -5,48 +5,83 @@
         <meta name="Viewport" content="width=device-width, initial-scale=1.0">
         <title>Time Travel Diary </title>
         <link rel="stylesheet" href="style.css">
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     </head>
     
-    <body> 
-       
-         <header style="background-color: rgb(231, 169, 87);">
-            <h1 style="text-align: center; font-size: 60px;" > Welcome , Traveler !! </h1>
-            <p style="font-style: oblique; color: brown; text-align: center; font-size: 200%; "> <bold>Scroll down and experience human history - from CAVES to colonizing MARS.</bold> </p>
+    <body id="home"> 
+         <div id="clock-container"> 
+             <div id="clock"> 00:00:00</div>
+         </div>
+         <header id= "HomeHeader">
+            <div id="head">
+            <h1 class="text-center text-[60px] font-sans text-white" > <bold>Welcome , Traveler !! </bold> </h1>
+            <pre class="text-[rgb(205,191,251)] text-[200%] font-serif">
+              <bold> <oblique> Scroll down and experience human history - 
+                 from CAVES 
+                    to 
+              colonizing MARS.</oblique></bold> </pre>
+            </div> 
             <br>
             <br>
             <br>
-              <a href="aboutme.html">
-            <button> About Me </button>
-            </a>
+          
+           <div id="AboutMe" style="display: flex; justify-content: center; align-items: center; background-color: rgba(166, 161, 199, 0.2); margin-left: 300px; width: 1000px; height: auto;">
+            <h1 class="text-[60px] text-[rgb(206,244,244)] text-center font-sans">
+            ABOUT ME
+           </h1>
+           <br>
+           <br>
+           <p style="flex-wrap: wrap; text-align:center; font-size: 40px; color: rgb(96, 128, 223); text-shadow: 0 0 5px #293c43; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; padding: 50px;">
+                              Hello! I'm <bold> Sunanda Mishra </bold>, an engineering student at 
+                    <strong>MIT Manipal</strong> pursuing a Computer Science and Engineering degree. 
+                    I am deeply passionate about <strong>AI and technology for India</strong>, aiming to 
+                create solutions that help not just urban populations, 
+                but also people living in Tier 3 villages.I love exploring 
+                creative projects, learning programming and AI from scratch, and
+                applying my knowledge to real-world problems.
+                 I enjoy designing websites, working with code, and building 
+                 innovative tools that can make life easier for people.
+                  In addition to technology, I enjoy reflecting on human emotions, 
+                  metaphysical ideas, and life philosophies. 
+                  I often weave creativity and personal experiences 
+                  into projects, making them unique and meaningful.
+           </p>
+          
+           </div>
+           <div id="buttons" class="flex flex-col justify-center items-center">
+            <br>
+            <br>
+            <br>
             <a href="stoneage.html">
-            <button> Stone age  </button>
+            <button class="tab-button"  data-target="stone" style="display: block; color: aliceblue; background-color: #170d36 ; font-size: 50px; border: 2px solid black; border-radius: 1opx; padding: 15px 15px 15px 15px;"> Stone age  </button>
             </a>
-            <a href="ancient.html">
-            <button> Ancient Era  </button>
-            </a>
-            <a href="medievalage.html">
-            <button> Medieval Era  </button>
-            </a>
-            <a href="modern.html">
-            <button> Modern Era  </button>
-            </a>
-            <a href="future.html">
-            <button>Future Era  </button>
-            </a>
-           
-
-
-            <hr>
-            </header>
-         
-            <section id="home">
             <br>
-             
-          <video controls autoplay loop src="https://media.istockphoto.com/id/2177048984/video/time-is-flying-by-spiral-clock-and-cloudscape-loopable-animation.mp4?p=1&s=mp4-640x640-is&k=20&c=4Tt7vgUD_yAZc2r2Mef_Qg-Qk4Z72CcSmUayzalAMeA=" width="100%" > 
+            <a href="ancient.html">
+            <button class="tab-button"  data-target="ancient" style="display: block; color: aliceblue; background-color: #170d36 ; font-size: 50px; border: 2px solid black; border-radius: 1opx; padding: 15px 15px 15px 15px;"> Ancient Era  </button>
+            </a>
+            <br>
+            <a href="medievalage.html">
+            <button class="tab-button"  data-target="medieval" style="display: block; color: aliceblue; background-color: #170d36 ; font-size: 50px; border: 2px solid black; border-radius: 1opx; padding: 15px 15px 15px 15px;">  Medieval Era  </button>
+            </a>
+            <br>
+            <a href="modern.html">
+            <button class="tab-button"  data-target="modern" style="display: block; color: aliceblue; background-color: #170d36 ; font-size: 50px; border: 2px solid black; border-radius: 1opx; padding: 15px 15px 15px 15px;"> Modern Era  </button>
+            </a>
+            <br>
+            <a href="future.html">
+            <button class="tab-button"  data-target="future" style="display: block; color: aliceblue; background-color: #170d36 ; font-size: 50px; border: 2px solid black; border-radius: 1opx; padding: 15px 15px 15px 15px;">Future Era  </button>
+            </a>
+            <br>
+            </div>
+          
+            </header>
+          <div class="flex justify-center items-center">
+           <video controls autoplay loop src="https://media.istockphoto.com/id/2177048984/video/time-is-flying-by-spiral-clock-and-cloudscape-loopable-animation.mp4?p=1&s=mp4-640x640-is&k=20&c=4Tt7vgUD_yAZc2r2Mef_Qg-Qk4Z72CcSmUayzalAMeA=" width="300px" > 
             </video>
             <p> </p>
-        
+          </div>
         </section>
-    
+    <script src="script.js"></script>
+    <script src="clock.js"></script>
     </body>
 </html>
